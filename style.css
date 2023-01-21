@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #080412;
+}
+.list {
+    color: #fff;
+    animation: movement 6s linear forwards;
+    animation-delay: 2s;
+  }
+  .item img{
+    margin-left: 40px;
+    width: 220px;
+    height: 220px;
+    animation: list 7s linear forwards;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    display: flex;
+    font-size: 40px;
+  }
+  @keyframes movement {
+    30% {
+      transform: translateY(100px) rotate3d(360deg);
+    }
+    60% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateY(220px) translateX(20px);
+      gap: 20px;
+    }}
+    .number1{
+animation-delay: 1.2s;
+    }
+  .number2 {
+    animation-delay: 1.2s;
+  }
+  .number3 {
+    animation-delay: 2.4s;
+  }
+  .number4 {
+    animation-delay: 3.6s;
+  }
+  .number5 {
+    animation-delay: 4.8s;
+  }
+  .number6 {
+    animation-delay: 6s;
+  }
+  .number7 {
+    animation-delay: 4.8s;
+  }
+  .number8 {
+    animation-delay: 3.6s;
+  }
+  .number9 {
+    animation-delay: 2.4s;
+  }
+  .number10 {
+    animation-delay: 1.2s;
+  }
+  @keyframes list {
+    20% {
+      transform: translateY(150px) scale(1);
+    }
+    100% {
+      transform: translateY(100px) scale(1);
+    }
+  }
